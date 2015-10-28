@@ -9,7 +9,7 @@
 
 ## Why Return Values Matter
 
-Arrays are great for storing lists of information in Ruby. In the real-world, however, lists change. We might use one list as the basis for collecting information for a different list entirely. 
+Arrays are great for storing lists of information. In the real-world, however, lists change. We might use one list as the basis for collecting information for a different list entirely. 
 
 Think about it like this––you are running a popular social networking site and you have a list of a user's posts. Each post has a timestamp. A post might say "posted 10 minutes ago" or "posted 2 days ago". Every few minutes or so, you need to iterate over the list of posts and update the timestamp accordingly. 
 
@@ -99,7 +99,7 @@ Place a `binding.pry`:
 ```ruby
 def hello(array)
   i = 0
-    binding.pry
+  binding.pry
   while i < array.length
     binding.pry
     yield(array[i])
