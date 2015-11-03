@@ -46,9 +46,9 @@ hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 Which would output to the terminal:
 
 ```bash
-Hi Tim
-Hi Tom
-Hi Jim
+# > Hi Tim
+# > Hi Tom
+# > Hi Jim
 ```
 
 You can run this file in your terminal with `ruby lib/practicing_returns.rb` to see for yourself. 
@@ -68,9 +68,9 @@ hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 You should see the following:
 
 ```bash
-Hi, Tim
-Hi, Tom
-Hi, Jim
+# > Hi, Tim
+# > Hi, Tom
+# > Hi, Jim
 => nil
 ```
 
