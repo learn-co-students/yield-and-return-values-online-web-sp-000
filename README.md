@@ -152,3 +152,5 @@ end
 ```
 
 And that's it! We've successfully built our own iteration using a `while` loop, `yield`ed each individual member of an array to a block and captured the return values of yielding those items to the block. This is exactly how the `#collect` method works, and we've just built it out, all by ourselves. 
+
+<a href='https://learn.co/lessons/yield-and-return-values' data-visibility='hidden'>View this lesson on Learn.co</a>
