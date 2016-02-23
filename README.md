@@ -84,7 +84,7 @@ We can capture the return value of the code that is executed when `yield` passes
 
 ## Capturing the Return Value of Using Yield
 
-Make the following change to the code block that we are calling with our `#hello` method in `lib/practicing_ruby.rb`:
+Make the following change to the code block that we are calling with our `#hello` method in `lib/practicing_returns.rb`:
 
 ```ruby
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
@@ -107,7 +107,7 @@ def hello(array)
 end
 ```
 
-Now, run the file with `ruby lib/practicing_yield.rb`. You should be dropped right into your binding. Let's manually execute our `yield` so that we can see the return value. In the Pry console in your terminal:
+Now, run the file with `ruby lib/practicing_returns.rb`. You should be dropped right into your binding. Let's manually execute our `yield` so that we can see the return value. In the Pry console in your terminal:
 
 ```ruby
 yield(array[i])
