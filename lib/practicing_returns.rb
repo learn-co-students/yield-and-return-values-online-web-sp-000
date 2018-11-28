@@ -10,4 +10,4 @@ def hi(array)
   collection
 end
 
-hello(["Jim", "John", "Peter"]) { |name| "Hi, #{name}" }
+hi(["Jim", "John", "Peter"]) { |name| "Hi, #{name}" }
