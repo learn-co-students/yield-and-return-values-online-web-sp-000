@@ -1,3 +1,4 @@
+# This is exactly how the #collect method works
 require 'pry'
 
 def hello(array)
