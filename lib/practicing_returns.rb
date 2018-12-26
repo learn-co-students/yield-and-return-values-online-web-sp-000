@@ -8,5 +8,5 @@ def hello(array)
     i += 1
   end
 
-  collectione
+  collection
 end
