@@ -8,7 +8,9 @@ def hello(array)
     i += 1
   end
   collect
+  # binding.pry
 end
 
 
-puts hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+array = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+puts array.inspect
