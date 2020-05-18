@@ -6,8 +6,8 @@ def hello(array)
   while i < array.length
     collection << yield(array[i])
     i += 1
-  endexit
+  end
   collection
-leaend
+end
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
