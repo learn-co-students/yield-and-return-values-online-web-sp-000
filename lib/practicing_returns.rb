@@ -8,6 +8,6 @@ def hello(array)
     i += 1
   endexit
   collection
-end
+leaend
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
