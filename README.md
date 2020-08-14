@@ -8,7 +8,7 @@
 2. Gain a deeper understanding of the common iterator, `#collect`.
 
 ## Why Return Values Matter
-
+ruby lib/practicing_returns.rb
 Arrays are great for storing lists of information. In the real-world, however, lists change. We might use one list as the basis for collecting information for a different list entirely. 
 
 Think about it like this––you are running a popular social networking site and you have a list of a user's posts. Each post has a timestamp. A post might say "posted 10 minutes ago" or "posted 2 days ago". Every few minutes or so, you need to iterate over the list of posts and update the timestamp accordingly. 
@@ -51,7 +51,7 @@ Which would output to the terminal:
 # > Hi, Jim
 ```
 
-You can run this file in your terminal with `ruby lib/practicing_returns.rb` to see for yourself. 
+You can run this file in your terminal with `` to see for yourself. 
 
 What is the return value of this method call, though? 
 
