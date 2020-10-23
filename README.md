@@ -21,7 +21,9 @@ We already know how to use the `yield` keyword in a method to pass each successi
 
 ## Yield and Return Values
 
-**This is a code-along exercise. We've given you some code in `lib/practicing_returns.rb` that we will build on together throughout the course of this reading**. 
+**This is a code-along exercise. NOTE: There are NO tests in this lab. If you run `learn test`, you might see the following message in your terminal: `This directory doesn't appear to have any specs in it`. That's ok!**
+
+**We've given you some code in `lib/practicing_returns.rb` that we will build on together throughout the course of this reading**. 
 
 Each time you use `yield(some_argument)` in the body of a method, it passes `some_argument` to the block you call that method with. Open up `lib/practicing_returns.rb` and take a look at the following code:
 
