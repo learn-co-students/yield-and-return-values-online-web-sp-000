@@ -2,11 +2,12 @@ require 'pry'
 
 def hello(array)
   i = 0
+  collention = []
   while i < array.length
-    yield(array[i])
+    collention << yield(array[i])
     i += 1
   end
+  collention
 end
 
-
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
